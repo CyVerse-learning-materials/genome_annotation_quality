@@ -8,16 +8,15 @@
 **Evaluate Genome Annotation Quality in Discovery Enviornment**
 =============================================================================
 
-
-Introduction
--------------
-
-    The first human genome was sequenced at a cost of $2.7 billion. Today only 20 years later, a "high-quality" genome can be generated for about $1000, and the innovation in genome-sequencing technologies and strategies does not appear to slow down. As a result, we continue to see booms in the number of sequenced and annotated genomes. Generating a high-quality genome annotations is a complex and challenging problem. As genome annotations are dynamic and an iterative process, tools to track quality of annotated genomes from release-to-release and iteration-to-iteration are badly required. In this tutorial, we are using GenomeQC to generate a comprehensive summary of genome annotation statistics and benchmark against gold standard reference annotations (Manchanda et al., 2019). GenomeQC can be used both as an app in the DE and as a downstream analysis tool for WQ-MAKER on JetStream.
+    The first human genome was sequenced at a cost of $2.7 billion. Today only in 20 years, a "high-quality" genome can be generated for about $1000, and the innovation in genome-sequencing technologies and strategies does not appear to slow down. As a result, we continue to see booms in the number of sequenced and annotated genomes. Generating a high-quality genome annotations is a complex and challenging problem. As genome annotations are dynamic and an iterative process, tools to track quality of annotated genomes from release-to-release and iteration-to-iteration are badly required. In this tutorial, we are using GenomeQC to generate a comprehensive summary of genome annotation statistics and benchmark against gold standard reference annotations (Manchanda et al., 2019). GenomeQC can be used both as an app in the DE and as a downstream analysis tool for WQ-MAKER on JetStream.
 
 Goal
 -----
 
-    
+    Generating comprehensive summary of genome annotation statistics and benchmark against gold standard reference annotations using GenomeQC.
+
+    - Using GenomeQC as an app the discovery enviornment (Part-1).
+    - Using GenomeQC as a downstream analysis tool for WQ-MAKER (Part-2).
 
 
     This tutorial is a work in progress, we will keep integrating more tools in DE for comparing and measuring quality of annotated genomes.
