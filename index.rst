@@ -5,11 +5,9 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**TUTORIAL NAME**
-=================
+**Evaluate Genome Annotation Quality in Discovery Enviornment and JetStream**
+=============================================================================
 
-..
-    Assess Genome Annotation Quality in Discovery Enviornment and JetStream
 
 Introduction
 -------------
