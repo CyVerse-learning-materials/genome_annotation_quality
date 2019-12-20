@@ -13,13 +13,9 @@
 
 .. toctree::
 	:titlesonly:
+	
 	step1
 	step2
-..
-	#### Comment:This tutorial can have multiple pages. The table of contents assumes
-	you have an additional page called 'Step One' with content located in 'step1.rst'
-	Edit these titles and filenames as needed ####
-
 
 
 References
