@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Using GenomeQC App as a downstream analysis tool for WQ-MAKER in JetStream
+GenomeQC as a downstream analysis tool for WQ-MAKER in JetStream
 ---------------------------------------------------------------------------
 
 
