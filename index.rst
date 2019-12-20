@@ -12,8 +12,8 @@
 
 
 .. toctree::
-	:maxdepth: 2
-  Inroduction <self>
+	:titlesonly:
+  	Inroduction <self>
 	Using GenomeQC App in Discovery Environment <step1.rst>
 	Using GenomeQC as a downstream tools for WQ-MAKER <step2.rst>
 ..
