@@ -5,7 +5,7 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Evaluate Genome Annotation Quality in the Discovery Environment**
+**Evaluate Genome Annotation Quality**
 =============================================================================
 
     The first human genome was sequenced at a cost of $2.7 billion. Today, only in 20 years, a "high-quality" genome can be generated for about $1000. As the innovation in genome-sequencing technologies and strategies does not appear to slow down, we expect continue booms in the number of sequenced and annotated genomes. Generating a high-quality genome annotations is a complex and challenging problem. As genome annotation is an iterative process, tools to track quality of annotated genomes from release-to-release and iteration-to-iteration are badly required. In this tutorial, we are using GenomeQC to generate a comprehensive summary of genome annotation statistics and benchmark against gold standard reference annotations (Manchanda et al., 2019). GenomeQC can be used both as an app in the DE and as a downstream analysis tool for WQ-MAKER on JetStream.
