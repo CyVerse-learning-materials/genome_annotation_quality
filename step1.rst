@@ -14,7 +14,7 @@ GenomeQC pipeline integrates various quantitative measures to characterize genom
 
 ---------------------------------------------------
 
-*Launch GenomeQC app*
+**Launch GenomeQC app**
 
 .. Note:: 
 
@@ -24,23 +24,20 @@ GenomeQC pipeline integrates various quantitative measures to characterize genom
 
 1. Login to the |discovery_enviornment|.
 
-2. CLick on "Apps" tab in the Discovery Enviornment and search for "SequenceServer".
+2. CLick on "Apps" tab in the Discovery Enviornment and search for "GenomeQC".
 
 3. Click on the app icon.
 
-|sequenceserver_app_icon|_
+|genomeqc_app_icon|_
 
 4. Change the name of the analysis and output folder as needed or leave for defaults.
 
-5. Under "Input" leave the default database or browse through the datastore and change the path to a custom database. Change the number of CPUs as per requirement.
+5. Under "Inputs" provide the genome annotation, transcript and BUSCO dataset. Use the example dataset or provide your own dataset.
 
 6. Under "Resource Requirements" request resources as needed or leave for defaults 
 
 7. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running. Click on 'Access your analysis here' link.
 
-8. Once the analysis is launched, you will see the SequenceServer user interface. Input your query sequences and click Blast.
-
-|sequenceserver_input|_
 
 ..
 	#### Comment: short text description goes here ####
@@ -199,4 +196,13 @@ Search for an answer:
 .. |JetStream|  raw:: html
 
    <a href="https://jetstream-cloud.org/" target="blank">Atmosphere Image</a>
+
+.. |genomeqc_app_icon| image:: ./img/genomeqc_icon.png
+    :width: 300
+    :height: 150
+.. _genomeqc_app_icon: http://learning.cyverse.org/
+
+.. |discovery_enviornment| raw:: html
+
+    <a href="https://de.cyverse.org/de/" target="_blank">Discovery Environment</a>
 
