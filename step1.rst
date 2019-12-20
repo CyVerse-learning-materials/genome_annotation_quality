@@ -38,6 +38,7 @@ GenomeQC pipeline integrates various quantitative measures to characterize genom
 
 7. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running. Click on 'Access your analysis here' link.
 
+8. Repeat the same steps for benchmarking with gold-standard dataset.
 
 ..
 	#### Comment: short text description goes here ####
