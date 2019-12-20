@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Using GenomeQC App in the Discovery Enviornment**
+**GenomeQC App in the Discovery Environment**
 ----------------------------------------------------
 
 GenomeQC pipeline integrates various quantitative measures to characterize genome assemblies and annotations. We have used the containerized version of GenomeQC to create an app in Discovery Environment.
