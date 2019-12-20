@@ -7,6 +7,7 @@
 
 
 **Using GenomeQC App in the Discovery Enviornment**
+----------------------------------------------------
 
 GenomeQC pipeline integrates various quantitative measures to characterize genome assemblies and annotations. We have used the containerized version of GenomeQC to create an app in Discovery Environment.
 
@@ -14,7 +15,6 @@ GenomeQC pipeline integrates various quantitative measures to characterize genom
 ---------------------------------------------------
 
 *Launch GenomeQC app*
----------------------------------------------------
 
 .. Note:: 
 
@@ -45,11 +45,9 @@ GenomeQC pipeline integrates various quantitative measures to characterize genom
 ..
 	#### Comment: short text description goes here ####
 
-Prerequisites
--------------
+**Prerequisites**
 
-Downloads, access, and services
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Downloads, access, and services**
 
 *In order to complete this tutorial you will need access to the following services/software*
 
@@ -72,8 +70,7 @@ Downloads, access, and services
       - Standalone software for upload/download to Data Store
       - |Download Cyberduck|
 
-Platform(s)
-~~~~~~~~~~~
+**Platform(s)**
 
 *We will use the following CyVerse platform(s):*
 
@@ -100,8 +97,7 @@ Platform(s)
       - |Discovery Environment Guide|
 
 
-Application(s) used
-~~~~~~~~~~~~~~~~~~~
+**Application(s) used**
 ..
   #### Comment: these tables are examples, delete whatever is unnecessary ####
 
@@ -122,8 +118,7 @@ Application(s) used
       - |Original App Documentation|
 
 
-Input and example data
-~~~~~~~~~~~~~~~~~~~~~~
+**Input and example data**
 
 *In order to complete this tutorial you will need to have the following inputs prepared*
 
