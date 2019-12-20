@@ -12,10 +12,9 @@
 
 
 .. toctree::
-	:maxdepth: 1
-  	Inroduction <self>
-	Using GenomeQC App in Discovery Environment <step1.rst>
-	Using GenomeQC as a downstream tools for WQ-MAKER <step2.rst>
+	:titlesonly:
+	step1
+	step2
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
 	you have an additional page called 'Step One' with content located in 'step1.rst'
