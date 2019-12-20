@@ -6,69 +6,139 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Name
--------------
+Using GenomeQC App in the Discovery Enviornment
+------------------------------------------------
 
-**Description:**
+GenomeQC pipeline integrates various quantitative measures to characterize genome assemblies and annotations. We have used the containerized version of GenomeQC to create an app in Discovery Environment.
+
+
+---------------------------------------------------
+
+*Launch GenomeQC app*
+---------------------------------------------------
+
+.. Note:: 
+
+.. Comment: Right-Click the below button and open in a new tab for quick launch of SequenceServer analysis with test database
+
+            |sequenceserver|_
+
+1. Login to the |discovery_enviornment|.
+
+2. CLick on "Apps" tab in the Discovery Enviornment and search for "SequenceServer".
+
+3. Click on the app icon.
+
+|sequenceserver_app_icon|_
+
+4. Change the name of the analysis and output folder as needed or leave for defaults.
+
+5. Under "Input" leave the default database or browse through the datastore and change the path to a custom database. Change the number of CPUs as per requirement.
+
+6. Under "Resource Requirements" request resources as needed or leave for defaults 
+
+7. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running. Click on 'Access your analysis here' link.
+
+8. Once the analysis is launched, you will see the SequenceServer user interface. Input your query sequences and click Blast.
+
+|sequenceserver_input|_
 
 ..
 	#### Comment: short text description goes here ####
 
-----
+Prerequisites
+-------------
 
-**Input Data:**
+Downloads, access, and services
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. list-table::
-    :header-rows: 1
-
-    * - Input
-      - Description
-      - Example
-    * -
-      -
-      -
-
-*Descriptive Steps*
-~~~~~~~~~~~~~~~~~~~
-
-.. 	#### Comment: Step title should be descriptive (i.e. Cleaning Read data) ###
-
-
-1.
-
-2.
-
-3.
-
-
+*In order to complete this tutorial you will need access to the following services/software*
 
 ..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
-
-**Output/Results**
+  #### comment: delete any row not needed in this table ####
 
 .. list-table::
     :header-rows: 1
 
-    * - Output
+    * - Prerequisite
+      - Preparation/Notes
+      - Link/Download
+    * - CyVerse account
+      - You will need a CyVerse account to complete this exercise
+      - |CyVerse User Portal|
+    * - JetStream access
+      - You must have access to JetStream
+      - |JetStream|
+    * - Cyberduck
+      - Standalone software for upload/download to Data Store
+      - |Download Cyberduck|
+
+Platform(s)
+~~~~~~~~~~~
+
+*We will use the following CyVerse platform(s):*
+
+ ..
+   #### comment: delete any row not needed in this table ####
+
+.. list-table::
+    :header-rows: 1
+
+    * - Platform
+      - Interface
+      - Link
+      - Platform Documentation
+      - Quick Start
+    * - Data Store
+      - GUI/Command line
+      - |Data Store|
+      - |Data Store Manual|
+      - |Data Store Guide|
+    * - Discovery Environment
+      - Web/Point-and-click
+      - |Discovery Environment|
+      - |DE Manual|
+      - |Discovery Environment Guide|
+
+
+Application(s) used
+~~~~~~~~~~~~~~~~~~~
+..
+  #### Comment: these tables are examples, delete whatever is unnecessary ####
+
+**Discovery Environment App(s):**
+
+.. list-table::
+    :header-rows: 1
+
+    * - App name
+      - Version
       - Description
-      - Example
-    * -
-      -
-      -
+      - App link
+      - Notes/other links
+    * - GenomeQC_annotation
+      - 1.0
+      - Genome Annotation Quality
+      - |DE Application URL|
+      - |Original App Documentation|
 
 
-----
+Input and example data
+~~~~~~~~~~~~~~~~~~~~~~
 
-**Description of output and results**
+*In order to complete this tutorial you will need to have the following inputs prepared*
 
+.. list-table::
+    :header-rows: 1
+
+    * - Input File(s)
+      - Format
+      - Preparation/Notes
+      - Example Data
+    * - Genome annotation, transcript file, BUSCO dataset
+      - GFF, FASTA
+      - BUSCO sample datasets Community Data -> iplantcollaborative -> example_data -> BUSCO.sample.data
+      - Community Data -> iplantcollaborative -> example_data -> genomeqc_annotation
 
 ----
 
@@ -81,7 +151,8 @@ Search for an answer:
 ----
 
 |Home_Icon|_
-`Learning Center Home <http://learning.cyverse.org/>`_
+`Learning Center Home <http://learning.cyverse.org/>`__
+
 
 .. Comment: Place Images Below This Line
    use :width: to give a desired width for your image
@@ -114,3 +185,24 @@ Search for an answer:
 .. |Github Repo Link|  raw:: html
 
    <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+
+.. |Download Cyberduck| raw:: html
+
+   <a href="https://cyberduck.io/" target="blank">Download Cyberduck</a>
+
+.. |DE Application URL|  raw:: html
+
+   <a href="https://de.cyverse.org/de/?type=apps&app-id=9b36fa5c-ff5a-11e9-a279-008cfa5ae621&system-id=de" target="blank">DE Application URL</a>
+
+.. |Original App Documentation|  raw:: html
+
+   <a href="https://wiki.cyverse.org/wiki/display/TUT/Evaluate+Genome+Annotation+Quality" target="blank">Original App Documentation</a>
+
+.. |Atmosphere Image|  raw:: html
+
+   <a href="https://atmo.cyverse.org/application/images/1384" target="blank">Atmosphere Image</a>
+
+.. |JetStream|  raw:: html
+
+   <a href="https://jetstream-cloud.org/" target="blank">Atmosphere Image</a>
+

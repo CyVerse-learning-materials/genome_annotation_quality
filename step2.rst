@@ -5,28 +5,19 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Evaluate Genome Annotation Quality in the Discovery Environment**
-=============================================================================
 
-    The first human genome was sequenced at a cost of $2.7 billion. Today, only in 20 years, a "high-quality" genome can be generated for about $1000. As the innovation in genome-sequencing technologies and strategies does not appear to slow down, we expect continue booms in the number of sequenced and annotated genomes. Generating a high-quality genome annotations is a complex and challenging problem. As genome annotation is an iterative process, tools to track quality of annotated genomes from release-to-release and iteration-to-iteration are badly required. In this tutorial, we are using GenomeQC to generate a comprehensive summary of genome annotation statistics and benchmark against gold standard reference annotations (Manchanda et al., 2019). GenomeQC can be used both as an app in the DE and as a downstream analysis tool for WQ-MAKER on JetStream.
-
-
-.. toctree::
-	:maxdepth: 2
-  Inroduction <self>
-	Using GenomeQC App in Discovery Environment <step1.rst>
-	Using GenomeQC as a downstream tools for WQ-MAKER <step2.rst>
-..
-	#### Comment:This tutorial can have multiple pages. The table of contents assumes
-	you have an additional page called 'Step One' with content located in 'step1.rst'
-	Edit these titles and filenames as needed ####
+Using GenomeQC App as a downstream analysis tool for WQ-MAKER in JetStream
+---------------------------------------------------------------------------
 
 
 
-References
------------
+.. Note:: 
 
-GenomeQC: A quality assessment tool for genome assemblies and gene structure annotations. Nancy Manchanda, John L. Portwood II, Margaret R. Woodhouse, Arun S. Seetharam, Carolyn J. Lawrence-Dill, Carson M. Andorf, Matthew B. Hufford. bioRxiv, posted October 8, 2019 (doi: 10.1101/795237)
+.. Comment: Right-Click the below button and open in a new tab for quick launch of SequenceServer analysis with test database
+
+            |sequenceserver|_
+
+
 
 ----
 
