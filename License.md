@@ -1,6 +1,6 @@
-# License for CyVerse Documentation
+# License for CyVerse Documentation (Version 2.0 - May 2020)
 
-Documentation contained in this repo is made available under at CC BY 4.0 License: https://creativecommons.org/licenses/by/4.0/legalcode 
+Documentation contained in this repo is made available under at CC BY 4.0 License: https://creativecommons.org/licenses/by/4.0/legalcode
 
 You may:
 
@@ -16,6 +16,6 @@ No additional restrictions—You may not apply legal terms or technological meas
 - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
 - No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
-This license is superseded by and subject to any and all other polices of CyVerse as described at: http://www.cyverse.org/policies; CyVerse is based upon work supported by the National Science Foundation under Grant No. DBI-0735191 and DBI-1265383.
+This license is superseded by and subject to any and all other polices of CyVerse as described at: http://www.cyverse.org/policies; CyVerse is based upon work supported by the National Science Foundation under Grant No. DBI-0735191, DBI-1265383, and DBI-1743442.
 
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
